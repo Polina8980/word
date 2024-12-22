@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E1CBEC;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex: 1; 
+    padding-top: 40px;
+}
+
+#canvas {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.controll-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    order: -1;
+    width: 100%; 
+    max-width: 1000px;
+}
+
+.controll-panel > * {
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.toolbar {
+    margin: 10px auto;
+    background-color: #E1CBEC;
+    font-size: 20px;
+    font-family: 'Kanit', 'Medium Italic';
+    display: flex; 
+    align-items: center; 
+}
+
+canvas {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    cursor: crosshair;
+    width: 100%;
+    max-width: 1000px;
+    height: calc(100vh - 180px); 
+}
+
+.edit-button2,
+.tool-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(167, 120, 187, 0.7);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none; 
+    margin: 4px;  
+}
+
+.edit-button2:hover,
+.tool-button:hover {
+    background-color: rgba(90, 8, 128, 0.7);
+}
+
+.tool-icon {
+    width: 20px;
+    height: 20px;
+     margin-right: 5px;
+     vertical-align: middle;
+}

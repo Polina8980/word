@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>DesignPro</title>
+</head>
+<body>
+    <main>
+        <div class="controll-panel">
+            <input type="color" id="color" value="#000000">
+            <input type="range" id="brushSize" min="1" max="50" value="5">
+            <select id="tools">
+                <option value="brush">Кисть</option>
+                <option value="pencil">Карандаш</option>
+                <option value="eraser">Ластик</option>
+            </select>
+            <button id="fill" class="tool-button">
+                <img src="foto/vedro.png" alt="Заливка" class="tool-icon">Заливка
+            </button>
+            <button id="clear" class="tool-button">Очистить</button>
+            <input type="file" id="upload" accept="image/*">
+            <button id="saveBtn" class="tool-button">Сохранить</button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <a href="index.html" class="edit-button2">Выйти</a>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
