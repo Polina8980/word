@@ -128,4 +128,7 @@ saveBtn.addEventListener('click', function() {
     link.download = 'my_drawing.png';
     link.href = dataURL;
     link.click();
+    <form action="">
+<input type="button" onclick="ym('ym(99900266,'reachGoal','TARGET_NAME')'); return true;" value="Заказать" />
+</form>
 });
