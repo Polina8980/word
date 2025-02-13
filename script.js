@@ -119,9 +119,7 @@ document.getElementById('fill').addEventListener('click', () => {
     ctx.fillStyle = fillColor;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 });
-
 const saveBtn = document.getElementById('saveBtn');
-
 saveBtn.addEventListener('click', function() {
     const dataURL = canvas.toDataURL('image/png');
     const link = document.createElement('a');
